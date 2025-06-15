@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Aoboshi+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Michroma&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Numans&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Zen+Antique&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Kagaku';
+  src: url('./assets/fonts/GN-KagakuGothic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Verbatim';
+  src: url('./assets/fonts/Verbatim-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.slick-dots li button:before {
+  color: white !important;
+  margin-top: 10px !important;
+  /* Dot color changed to white */
+}
+
+.slick-dots li.slick-active button:before {
+  color: white !important;
+  margin-top: 10px !important;
+  /* Active dot color changed to white */
+}
