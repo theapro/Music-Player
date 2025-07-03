@@ -6,6 +6,7 @@ import Offlineplayer from "./components/Musicpanel";
 import Onlineplayer from "./components/control";
 import Playlist from "./components/Playlist";
 import Search from "./components/Search";
+import ModelSwitcher from "./components/ModelSwitcher";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Route path="/Onlineplayer" element={<Onlineplayer />} />
           <Route path="/Playlist" element={<Playlist />} />
           <Route path="/Search" element={<Search />} />
+          <Route path="/models" element={<ModelSwitcher />} />
         </Routes>
       </Router>
     </ThemeProvider>
